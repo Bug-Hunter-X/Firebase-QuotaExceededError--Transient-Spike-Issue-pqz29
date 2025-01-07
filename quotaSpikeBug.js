@@ -1,0 +1,1 @@
+The Firebase Realtime Database sometimes throws a `QuotaExceededError` even when the data size appears to be well within the free tier limits.  This often occurs when many small updates are made rapidly, leading to a transient spike in usage that exceeds the quota, even if the overall data size remains low. The error messages aren't always clear, making debugging challenging.

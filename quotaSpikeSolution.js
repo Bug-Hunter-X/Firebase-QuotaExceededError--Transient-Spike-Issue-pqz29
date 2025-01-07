@@ -1,0 +1,1 @@
+The solution involves batching updates. Instead of writing multiple updates individually, group related updates into a single transaction. This significantly reduces the number of write operations.  Another option is to use Firestore if you have frequent or larger updates.
